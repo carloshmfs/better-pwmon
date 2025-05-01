@@ -1,2 +1,4 @@
 *.o
 better-pwmon
+compile_commands.json
+.cache/
