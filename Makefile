@@ -1,6 +1,6 @@
 # tool macros
 CXX := g++
-CXXFLAGS := -Wall -Wextra -Werror -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -D_REENTRANT
+CXXFLAGS := -std=c++20 -Wall -Wextra -Werror -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -D_REENTRANT
 LDFLAGS := -lpipewire-0.3
 
 project_name := better-pwmon
